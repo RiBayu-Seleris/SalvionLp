@@ -1,6 +1,6 @@
 // import Phone from "@/assets/temp/applications/phone.png";
 import Phone from "@/assets/temp/applications/phone.svg";
-import Pattern from "@/assets/temp/applications/Pattern.svg";
+import Pattern from "@/assets/temp/applications/pattern.svg";
 import TextWithBadge from "@/components/TextWithBadge";
 import CardIconLeft from "@/components/CardIconLeft";
 
