@@ -1,4 +1,4 @@
-import frameAiSee from "@/assets/temp/frame-face.png";
+import frameAiSee from "@/assets/temp/Frame-Face.png";
 import WaveLeft from "@/assets/jsx-frame/WaveLeft";
 import TextWithBadge from "@/components/TextWithBadge";
 import imgBefore from "@/assets/temp/before2.png";
