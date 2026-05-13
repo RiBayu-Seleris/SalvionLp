@@ -1,0 +1,38 @@
+export default function CircleGradient3() {
+  return (
+    <svg
+      width="416"
+      height="416"
+      viewBox="0 0 416 416"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g opacity="0.3">
+        <path
+          d="M207.87 414.019C321.723 414.019 414.019 321.723 414.019 207.87C414.019 94.0169 321.723 1.7207 207.87 1.7207C94.0169 1.7207 1.7207 94.0169 1.7207 207.87C1.7207 321.723 94.0169 414.019 207.87 414.019Z"
+          stroke="url(#paint0_linear_122_1119)"
+          stroke-linecap="round"
+          stroke-dasharray="2.75 4.13"
+        />
+      </g>
+      <defs>
+        <linearGradient
+          id="paint0_linear_122_1119"
+          x1="1.37655"
+          y1="1.37655"
+          x2="414.364"
+          y2="414.364"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0.146" stop-color="white" stop-opacity="0" />
+          <stop offset="0.302" stop-color="white" stop-opacity="0.396" />
+          <stop offset="0.427" stop-color="white" />
+          <stop offset="0.568" stop-color="white" stop-opacity="0" />
+          <stop offset="0.682" stop-color="white" stop-opacity="0.66" />
+          <stop offset="0.807" stop-color="white" stop-opacity="0.29" />
+          <stop offset="0.899" stop-color="white" stop-opacity="0.37" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+}

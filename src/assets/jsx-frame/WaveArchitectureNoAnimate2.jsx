@@ -1,0 +1,85 @@
+export default function WaveArchitectureNoAnimate(params) {
+  return (
+    <svg
+      width="1404"
+      height="391"
+      viewBox="0 0 1404 391"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_99_1797)">
+        <path
+          d="M1290.05 322.016H113.784C57.0007 322.016 10.9688 275.984 10.9688 219.201C10.9688 162.231 57.1521 116.047 114.122 116.047H160.875L293.036 97.2312C323.824 92.8477 355.183 99.2306 381.809 115.301C420.43 138.611 468.144 141.086 508.971 121.897L538.082 108.215C593.698 82.0753 658.381 83.666 712.646 112.508L750.287 132.515C810.231 164.376 883.315 157.954 936.784 116.127C976.842 84.7922 1028.72 72.8137 1078.46 83.4161L1216.49 112.838C1226.5 114.971 1236.7 116.047 1246.94 116.047H1290.05C1346.93 116.047 1393.03 162.155 1393.03 219.032C1393.03 275.908 1346.93 322.016 1290.05 322.016Z"
+          stroke="url(#paint0_linear_99_1797)"
+          stroke-width="1.82812"
+          stroke-linecap="round"
+        />
+        <path
+          d="M1299.8 322.016H123.534C66.7507 322.016 20.7188 275.984 20.7188 219.201C20.7188 162.231 66.9021 116.047 123.873 116.047H170.625L302.786 97.2312C333.574 92.8477 364.933 99.2306 391.559 115.301C430.18 138.611 477.894 141.086 518.721 121.897L547.832 108.215C603.448 82.0753 668.131 83.666 722.396 112.508L760.037 132.515C819.981 164.376 893.065 157.954 946.534 116.127C986.592 84.7922 1038.47 72.8137 1088.21 83.4161L1226.23 112.838C1236.25 114.971 1246.45 116.047 1256.69 116.047H1299.8C1356.68 116.047 1402.78 162.155 1402.78 219.032C1402.78 275.908 1356.68 322.016 1299.8 322.016Z"
+          stroke="url(#paint1_linear_99_1797)"
+          stroke-width="1.82812"
+          stroke-linecap="round"
+        />
+        <path
+          d="M1280.3 322.016H104.034C47.2507 322.016 1.21875 275.984 1.21875 219.201C1.21875 162.231 47.4021 116.047 104.372 116.047H151.125L283.286 97.2312C314.074 92.8477 345.433 99.2306 372.059 115.301C410.68 138.611 458.394 141.086 499.221 121.897L528.332 108.215C583.948 82.0753 648.631 83.666 702.896 112.508L740.537 132.515C800.481 164.376 873.565 157.954 927.034 116.127C967.092 84.7922 1018.97 72.8137 1068.71 83.4161L1206.74 112.838C1216.75 114.971 1226.95 116.047 1237.19 116.047H1280.3C1337.18 116.047 1383.28 162.155 1383.28 219.032C1383.28 275.908 1337.18 322.016 1280.3 322.016Z"
+          stroke="url(#paint2_linear_99_1797)"
+          stroke-width="1.82812"
+          stroke-linecap="round"
+        />
+      </g>
+      <defs>
+        <linearGradient
+          id="paint0_linear_99_1797"
+          x1="1455.19"
+          y1="194.047"
+          x2="-53.0157"
+          y2="194.047"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#DC7C1F" />
+          <stop offset="0.192721" stop-color="#D38C31" />
+          <stop offset="0.329508" stop-color="#CD983E" />
+          <stop offset="0.48997" stop-color="#C7A44D" />
+          <stop offset="0.674148" stop-color="#C1B05A" />
+          <stop offset="0.808503" stop-color="#84BD8D" />
+          <stop offset="1" stop-color="#62C5AA" />
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear_99_1797"
+          x1="1464.94"
+          y1="194.047"
+          x2="-43.2657"
+          y2="194.047"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#DC7C1F" />
+          <stop offset="0.192721" stop-color="#D38C31" />
+          <stop offset="0.329508" stop-color="#CD983E" />
+          <stop offset="0.48997" stop-color="#C7A44D" />
+          <stop offset="0.674148" stop-color="#C1B05A" />
+          <stop offset="0.808503" stop-color="#84BD8D" />
+          <stop offset="1" stop-color="#62C5AA" />
+        </linearGradient>
+        <linearGradient
+          id="paint2_linear_99_1797"
+          x1="1445.44"
+          y1="194.047"
+          x2="-62.7657"
+          y2="194.047"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#DC7C1F" />
+          <stop offset="0.192721" stop-color="#D38C31" />
+          <stop offset="0.329508" stop-color="#CD983E" />
+          <stop offset="0.48997" stop-color="#C7A44D" />
+          <stop offset="0.674148" stop-color="#C1B05A" />
+          <stop offset="0.808503" stop-color="#84BD8D" />
+          <stop offset="1" stop-color="#62C5AA" />
+        </linearGradient>
+        <clipPath id="clip0_99_1797">
+          <rect width="1404" height="390.531" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+}
