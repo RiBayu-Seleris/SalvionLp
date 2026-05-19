@@ -4,6 +4,24 @@ import Lighting from "@/assets/temp/applications/gradient-lighting.svg";
 import TextWithBadge from "@/components/TextWithBadge";
 import Tetris from "@/assets/jsx-frame/applications/Tetris";
 
+const Data = [
+  {
+    title: "Non-Invasive Early Screening",
+    description:
+      "Scalable physiological screening deployable across any device. Identify risk populations for clinical follow-up.",
+  },
+  {
+    title: "Remote Physiological Monitoring",
+    description:
+      "Continuous monitoring of chronic patients without hardware deployment.",
+  },
+  {
+    title: "Care Pathway Optimization",
+    description:
+      "Longitudinal signal data informs care protocol adjustment in real time.",
+  },
+];
+
 export default function Clinical() {
   return (
     <div className="relative w-full bg-[#0B0F1A]">
@@ -18,13 +36,13 @@ export default function Clinical() {
       />
 
       {/* Flex row */}
-      <div className="relative w-full flex flex-row items-stretch  pt-20">
+      <div className="relative w-full flex flex-row items-stretch pt-20">
         {/* Tetris overlay — ikuti tinggi flex row */}
         <div className="absolute left-0 top-0 w-[60%] h-full transition-all duration-300 ease-in-out z-10 ">
           <Tetris />
         </div>
         <div className="relative flex-1 pl-12 flex items-center z-20">
-          <div className="relative w-full h-auto flex flex-col gap-y-5">
+          <div className="relative w-full h-auto flex flex-col gap-y-2">
             <TextWithBadge
               text="CLINICAL"
               caption="Salvion AI resolves the access constraint in preventive medicine: any camera-equipped device becomes a continuous health monitoring instrument."
@@ -43,7 +61,7 @@ export default function Clinical() {
               </div>
             </TextWithBadge>
             <div className="w-full h-auto flex flex-col gap-y-10">
-              {Array.from({ length: 3 }).map((_, i) => (
+              {Data.map((item, i) => (
                 <div className="w-full h-auto flex flex-col gap-y-4">
                   <div className="w-full h-auto flex flex-row gap-x-4">
                     <div className="w-auto h-auto flex justify-center items-center">
@@ -55,9 +73,7 @@ export default function Clinical() {
                       </div>
                     </div>
                     <div className="w-auto h-auto flex justify-center items-center">
-                      <p className="text-[#FFFFFF] text-[18px]">
-                        Non-Invasive Early Screening
-                      </p>
+                      <p className="text-[#FFFFFF] text-[18px]">{item.title}</p>
                     </div>
                   </div>
                   <div className="w-full h-auto flex flex-row gap-x-4">
@@ -65,10 +81,8 @@ export default function Clinical() {
                       <div className="w-[3px] h-full bg-[#97F8F9] rounded-full" />
                     </div>
                     <div className="w-auto h-auto flex justify-center items-center pr-12">
-                      <p className="text-[#D7D7D7] text-[16px]">
-                        Scalable physiological screening deployable across any
-                        device. Identify risk populations for clinical
-                        follow-up.
+                      <p className="text-[#D7D7D7] text-[18px] pr-32">
+                        {item.description}
                       </p>
                     </div>
                   </div>

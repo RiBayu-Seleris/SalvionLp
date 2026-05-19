@@ -3,6 +3,23 @@ import TextWithBadge from "@/components/TextWithBadge";
 import CodeEndpoints from "@/components/CodeEndpoints";
 import PythonRequestCard from "@/components/PythonRequestCard";
 
+const Data = [
+  {
+    title: "Get API Key",
+    description: "Generate a sandbox or production key from your dashboard.",
+  },
+  {
+    title: "Send Request",
+    description:
+      "Stream video frames or provide a remote resource URL for analysis.",
+  },
+  {
+    title: "Receive Signal Data",
+    description:
+      "Extract high-fidelity biometric data including HRV, HR, and SpO2.",
+  },
+];
+
 export default function Core() {
   return (
     <div className="w-full h-auto bg-red-800/20">
@@ -35,7 +52,7 @@ export default function Core() {
                 </div>
               </TextWithBadge>
               <div className="w-full h-auto flex flex-col gap-y-14">
-                {Array.from({ length: 3 }).map((_, i) => (
+                {Data.map((item, i) => (
                   <div className="w-full h-auto flex flex-col gap-y-5">
                     <div className="w-full h-auto flex flex-row gap-x-4">
                       <div className="w-auto h-auto flex justify-center items-center">
@@ -44,8 +61,8 @@ export default function Core() {
                         </div>
                       </div>
                       <div className="w-auto h-auto flex justify-center items-center">
-                        <p className="text-[#FFFFFF] text-[18px]">
-                          Non-Invasive Early Screening
+                        <p className="text-[#FFFFFF] text-[24px]">
+                          {item.title}
                         </p>
                       </div>
                     </div>
@@ -53,11 +70,9 @@ export default function Core() {
                       <div className="w-8 h-16 shrink-0 flex justify-center items-center">
                         <div className="w-[2px] h-full bg-[#97F8F9] rounded-full" />
                       </div>
-                      <div className="w-auto h-auto flex justify-center items-center pr-12">
-                        <p className="text-[#D7D7D7] text-[16px]">
-                          Scalable physiological screening deployable across any
-                          device. Identify risk populations for clinical
-                          follow-up.
+                      <div className="w-auto h-auto flex justify-center items-center pr-32">
+                        <p className="text-[#D7D7D7] text-[20px]">
+                          {item.description}
                         </p>
                       </div>
                     </div>

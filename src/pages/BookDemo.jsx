@@ -170,7 +170,7 @@ export default function BookDemo() {
                 >
                   <form
                     onSubmit={goToStep2}
-                    className="h-full flex flex-col gap-y-8 justify-center px-8 py-10"
+                    className="h-full flex flex-col gap-y-6 justify-center px-8 py-10"
                   >
                     <div className="w-full flex flex-row gap-x-6">
                       <InputForm

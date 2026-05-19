@@ -127,7 +127,7 @@ export default function Features() {
       </div>
       <div className="w-full h-auto flex justify-center items-center ">
         <TextWithBadgeCenter
-          text="NOW IN CLINICAL VALIDATION · SOUTHEAST ASIA"
+          text="FEATURES & CAPABILITIES"
           caption="A single 30-second scan provides a holistic view of your health"
         >
           <h1 className="font-bold text-[#FFFFFF]">

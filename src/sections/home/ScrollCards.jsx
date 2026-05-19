@@ -10,34 +10,34 @@ import useSvgRadius from "@/hooks/useSvgRadius";
 
 const cards = [
   {
-    title: "Salvion Multimodal Engine (SME) (Awal)",
+    title: "Salvion Multimodal Engine (SME)",
     description:
-      "SME adalah inti dari platform Salvion yang menggabungkan berbagai teknologi AI untuk memberikan solusi cerdas dan terintegrasi bagi bisnis Anda.",
+      "SME is the core intelligence engine of the Salvion platform, combining multiple AI technologies to deliver smart, adaptive, and integrated business solutions.",
   },
   {
     title: "Salvion Data Insights (SDI)",
     description:
-      "SDI adalah alat analitik canggih yang memanfaatkan AI untuk memberikan wawasan mendalam tentang data bisnis Anda, membantu Anda membuat keputusan yang lebih baik.",
+      "SDI is an AI-powered analytics solution that transforms complex business data into actionable insights, enabling faster and more informed decision-making.",
   },
   {
     title: "Salvion Customer Engagement (SCE)",
     description:
-      "SCE adalah solusi AI yang dirancang untuk meningkatkan interaksi dengan pelanggan melalui chatbot pintar, personalisasi, dan otomatisasi layanan pelanggan.",
+      "SCE is an intelligent customer engagement solution designed to improve interactions through AI chatbots, personalized experiences, and automated customer support.",
   },
   {
     title: "Salvion Process Automation (SPA)",
     description:
-      "SPA adalah platform otomatisasi proses bisnis yang menggunakan AI untuk mengoptimalkan alur kerja, meningkatkan efisiensi, dan mengurangi biaya operasional.",
+      "SPA is an AI-driven automation platform that streamlines business workflows, increases operational efficiency, and reduces manual processes and costs.",
   },
   {
     title: "Salvion Predictive Analytics (SPA)",
     description:
-      "SPA adalah alat analitik prediktif yang memanfaatkan AI untuk memproyeksikan tren masa depan, membantu bisnis Anda merencanakan strategi yang lebih efektif.",
+      "SPA is a predictive analytics solution that uses AI and data modeling to forecast trends, identify opportunities, and support strategic business planning.",
   },
   {
-    title: "Salvion AI Integration (SAI) (akhir)",
+    title: "Salvion AI Integration (SAI)",
     description:
-      "SAI adalah layanan integrasi AI yang memungkinkan bisnis Anda menggabungkan teknologi AI ke dalam sistem yang sudah ada, mempercepat transformasi digital Anda.",
+      "SAI is an AI integration service that helps businesses seamlessly implement and connect AI technologies with existing systems to accelerate digital transformation.",
   },
 ];
 

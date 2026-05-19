@@ -355,12 +355,23 @@ function Logo() {
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const openSidebar = useSidebarStore((s) => s.open);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 0);
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  if (location.pathname === "/face-scan") {
+    return (
+      <div className="w-full h-full flex justify-center items-center py-14">
+        <Link to="/" className="flex w-full justify-center items-center h-full">
+          <Logo />
+        </Link>
+      </div>
+    );
+  }
 
   return (
     <div

@@ -1,6 +1,32 @@
 import LineGrid from "@/assets/temp/company/grid-line.svg";
 import Tetris from "@/assets/jsx-frame/applications/Tetris";
 
+const Data = [
+  {
+    title:
+      "Biological signals are the highest-fidelity health data that exists.",
+    description:
+      "Surveys, self-reports, and periodic examinations are approximations of health state. The body's continuous physiological output is the unfiltered ground truth. Our platform is built to access that ground truth, not approximate it.",
+  },
+  {
+    title:
+      "Scale requires simplicity. Power does not require complexity at the interface.",
+    description:
+      "The signal processing science behind Salvion is genuinely complex. The interface that enterprises and developers experience should not be.",
+  },
+  {
+    title: "Privacy is not a compliance checkbox. It is a design principle.",
+    description:
+      "We have designed Salvion AI from first principles to extract signal intelligence without retaining individual biometric data. No video is stored. No identity is retained.",
+  },
+  {
+    title:
+      "The value of intelligence is in the decisions it enables — not in the data itself.",
+    description:
+      "We measure our success not by the volume of signals processed, but by the quality of decisions our outputs enable.",
+  },
+];
+
 export default function Principle() {
   return (
     <div className="w-full h-auto">
@@ -11,8 +37,8 @@ export default function Principle() {
               FIRST PRINCIPLES
             </p>
           </div>
-          <div className="w-full h-auto flex flex-col gap-y-10">
-            {Array.from({ length: 4 }).map((_, i) => (
+          <div className="w-full h-auto flex flex-col gap-y-12">
+            {Data.map((item, i) => (
               <div className="w-[60%] h-auto flex flex-col gap-y-4">
                 <div className="w-full h-auto flex flex-row gap-x-4">
                   <div className="w-auto h-auto flex justify-center items-center">
@@ -24,10 +50,7 @@ export default function Principle() {
                     </div>
                   </div>
                   <div className="w-auto h-auto flex justify-center items-center">
-                    <p className="text-[#FFFFFF] text-[18px]">
-                      Biological signals are the highest-fidelity health data
-                      that exists.
-                    </p>
+                    <p className="text-[#FFFFFF] text-[22px]">{item.title}</p>
                   </div>
                 </div>
                 <div className="w-full h-auto flex flex-row gap-x-4">
@@ -35,12 +58,8 @@ export default function Principle() {
                     <div className="w-[3px] h-full bg-[#97F8F9] rounded-full" />
                   </div>
                   <div className="w-auto h-auto flex justify-center items-center pr-12">
-                    <p className="text-[#D7D7D7] text-[16px]">
-                      Surveys, self-reports, and periodic examinations are
-                      approximations of health state. The body's continuous
-                      physiological output is the unfiltered ground truth. Our
-                      platform is built to access that ground truth, not
-                      approximate it.
+                    <p className="text-[#D7D7D7] text-[18px]">
+                      {item.description}
                     </p>
                   </div>
                 </div>

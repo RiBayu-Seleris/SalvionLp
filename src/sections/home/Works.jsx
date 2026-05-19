@@ -144,21 +144,25 @@ export default function WavePathScroll() {
         <div className="absolute w-auto h-auto -right-[15%] top-0">
           <img src={circleOne} alt="" srcSet="" className="w-auto h-auto" />
         </div>
-        <div className="absolute top-[15%] w-full h-auto flex flex-col items-center font-inter">
+        <div className="absolute top-[12%] w-full h-auto flex flex-col gap-y-4 items-center font-inter">
           <div className="w-full h-auto flex justify-center items-center">
             <p className="text-[#23DDF6] font-[600]">HOW IT WORKS</p>
           </div>
-          <div className="w-full h-auto flex justify-center items-center">
-            <p className="text-[42px] font-[600] text-[#FFFFFF]">
-              From Face to Full{" "}
-              <span className="text-[#23DDF6]">Health Report</span> in 30
-              Seconds
-            </p>
-          </div>
-          <div className="w-full h-auto flex justify-center items-center">
-            <p className="text-[#FFFFFF]">
-              From Face to Full Health Report in 30 Seconds
-            </p>
+          <div className="w-full h-auto flex flex-col gap-y-2 justify-center items-center">
+            <div className="w-full h-auto flex justify-center items-center">
+              <p className="text-[42px] font-[600] text-[#FFFFFF]">
+                From Face to Full{" "}
+                <span className="text-[#23DDF6]">Health Report</span> in 30
+                Seconds
+              </p>
+            </div>
+            <div className="w-full h-auto flex justify-center items-center">
+              <p className="text-[#E5E7EB] font-[300] text-center text-[20px]">
+                Salvion AI's proprietary signal processing pipeline captures,
+                validates, and interprets subtle biosignals from <br /> your
+                face — transforming raw pixels into clinically mean
+              </p>
+            </div>
           </div>
         </div>
         <div className="relative w-full h-full ">

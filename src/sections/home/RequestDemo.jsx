@@ -80,7 +80,7 @@ export default function RequestDemo() {
             >
               <div className="w-full h-auto flex flex-row gap-x-6 justify-between items-center">
                 <InputForm
-                  label="Nama Lengkap"
+                  label="Full Name"
                   name="fullname"
                   text="Full Name"
                   value={formData.fullname}

@@ -38,7 +38,7 @@ export default function Pattern() {
       <div className="w-full h-auto flex flex-col gap-y-10 px-12">
         <div className="max-w-6xl h-auto">
           <TextWithBadge
-            text="SCIENCE"
+            text="AI MODELS"
             caption="Extracted physiological signals are processed by Salvion's AI Interpretation Engine — a layered architecture of domain-specific models trained on large-scale labeled datasets spanning multiple populations, health conditions, and clinical outcomes."
             captionClass="text-[18px]"
           >
